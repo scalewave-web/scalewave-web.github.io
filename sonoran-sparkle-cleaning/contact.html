@@ -39,7 +39,7 @@
     </section>
 
     <section class="wrap section two-col">
-      <form class="quote-form" name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="thank-you.html">
+      <form class="quote-form" name="contact" action="thank-you.html" onsubmit="location.href='thank-you.html'; return false;">
         <p class="hidden"><label>Leave this empty: <input name="bot-field"></label></p>
         <input type="hidden" name="form-name" value="contact">
         <label>Name <input name="name" autocomplete="name" required></label>
