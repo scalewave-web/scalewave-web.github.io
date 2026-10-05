@@ -5,106 +5,122 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Getting started | ScaleWave</title>
 <meta name="description" content="What happens after you say yes to a ScaleWave website: payments, what to send, timeline and launch.">
+<meta name="theme-color" content="#070b18">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
 <link rel="canonical" href="https://scalewave-web.github.io/getting-started.html">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Getting started | ScaleWave">
 <meta property="og:description" content="What happens after you say yes to a ScaleWave website: payments, what to send, timeline and launch.">
 <meta property="og:url" content="https://scalewave-web.github.io/getting-started.html">
-<meta property="og:image" content="https://scalewave-web.github.io/assets/saguaro-home.jpg">
+<meta property="og:image" content="https://scalewave-web.github.io/saguaro-home.jpg">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<header class="site-header">
+
+<header class="nav">
   <div class="wrap">
-    <a class="brand" href="index.html">Scale<span>Wave</span></a>
-    <nav class="nav">
+    <a class="brand" href="index.html" aria-label="ScaleWave home">
+      <svg class="brand-mark" viewBox="0 0 64 64" aria-hidden="true"><defs><linearGradient id="bm" x1="0" x2="1"><stop offset="0" stop-color="#2ee6c5"/><stop offset="1" stop-color="#8b5cf6"/></linearGradient></defs><rect width="64" height="64" rx="16" fill="#0c1226" stroke="rgba(255,255,255,.15)"/><path d="M10 40c8-10 14-10 22 0s14 10 22 0" stroke="url(#bm)" stroke-width="6" fill="none" stroke-linecap="round"/><path d="M10 26c8-10 14-10 22 0s14 10 22 0" stroke="url(#bm)" stroke-width="6" fill="none" stroke-linecap="round" opacity=".55"/></svg>
+      ScaleWave
+    </a>
+    <button class="menu-btn" aria-label="Menu" aria-expanded="false">☰</button>
+    <nav class="nav-links">
       <a href="index.html#offer">Offer</a>
       <a href="index.html#process">How it works</a>
       <a href="work.html">Work</a>
       <a href="index.html#faq">FAQ</a>
-      <a href="getting-started.html">Getting started</a>
+      <a href="getting-started.html" aria-current="page">Getting started</a>
+      <a class="btn btn-primary btn-sm" href="mailto:scalewave.agency1@gmail.com?subject=Question%20about%20getting%20started">Email Dylan</a>
     </nav>
   </div>
 </header>
 
 <main>
-<section class="hero" style="padding:44px 0">
+<section class="page-hero">
   <div class="wrap">
     <p class="eyebrow">Getting started</p>
-    <h1>From "let's do it" to a live website</h1>
-    <p class="lead">Here's exactly what happens, what you pay and when, and what I'll need from you. Your part takes about an hour in total.</p>
+    <h1>From "let's do it" to <span class="grad">a live website.</span></h1>
+    <p class="lead">Exactly what happens, what you pay and when, and what I'll need from you. Your part takes about an hour in total.</p>
   </div>
 </section>
 
-<section>
+<section style="padding-top:30px">
   <div class="wrap">
-    <h2>The steps</h2>
-    <ol class="steps">
-      <li><strong>Say yes.</strong> Reply "let's do it" to your proposal and tell me the email you'd like the invoice sent to.</li>
-      <li><strong>Pay the $375 deposit.</strong> You'll get a Square invoice you can pay online. That reserves your founding spot and starts the work.</li>
-      <li><strong>Send your info (about 10 minutes).</strong> Answer the short questionnaire and send photos of your work by email or text. Happy to go through it on a quick call instead.</li>
-      <li><strong>Buy your domain (5 minutes), if you don't have one.</strong> It's in your name, about $12–20 a year. I'll tell you exactly what to click.</li>
-      <li><strong>Review your first draft (about a week later).</strong> Look at it on your phone and send all your changes in one message.</li>
-      <li><strong>Two rounds of changes.</strong> When you're happy, tell me in writing that it's approved.</li>
-      <li><strong>Pay the final $375.</strong> Same kind of Square invoice. It's due once you approve the site, before it goes live.</li>
-      <li><strong>Launch.</strong> I connect your domain, test the quote form with you, and link the site from your Google Business Profile.</li>
-      <li><strong>14 days of fixes.</strong> Anything that needs adjusting after launch is on me.</li>
-    </ol>
-  </div>
-</section>
-
-<section class="alt">
-  <div class="wrap grid grid-2">
-    <div class="card">
-      <h3>What you pay</h3>
-      <ul class="checks">
-        <li>$375 deposit to start</li>
-        <li>$375 when you approve the finished site, before it goes live</li>
-        <li>Your domain, about $12–20 a year, paid directly to the company you buy it from</li>
-        <li>No monthly fee required. Hosting is included</li>
-      </ul>
-    </div>
-    <div class="card">
-      <h3>What you get</h3>
-      <ul class="checks">
-        <li>Up to 5 pages, written for you</li>
-        <li>Built for phones, fast and secure</li>
-        <li>Call buttons and a quote form that emails you</li>
-        <li>Google basics and a review button</li>
-        <li>2 rounds of changes and 14 days of fixes</li>
-        <li>You own your domain and your site</li>
-      </ul>
+    <div class="steps reveal" style="margin-top:0">
+      <div class="step"><h3>Say yes &amp; pay the deposit</h3><p>Reply "let's do it" and tell me where to send the invoice. Pay the $375 deposit online through Square. That reserves your founding spot.</p><span class="time">Day 1</span></div>
+      <div class="step"><h3>Send your info</h3><p>Answer a short questionnaire and send photos of your work by email or text. Happy to go through it on a quick call instead.</p><span class="time">About 10 minutes</span></div>
+      <div class="step"><h3>Review your draft</h3><p>About a week later, look at it on your phone and send all your changes in one message. Two rounds of changes are included.</p><span class="time">About a week</span></div>
+      <div class="step"><h3>Approve, pay &amp; launch</h3><p>Approve it in writing, pay the final $375, and I connect your domain, test the quote form with you and link it from your Google profile.</p><span class="time">Day ~14</span></div>
     </div>
   </div>
 </section>
 
 <section>
   <div class="wrap">
-    <h2>What I'll need from you</h2>
-    <p class="section-intro">Have these handy and the questionnaire takes about 10 minutes. Anything you're not sure about, we can figure out together.</p>
-    <div class="grid grid-2">
-      <div class="card"><h3>Business basics</h3><p>Business name, the phone number customers should call, the email where quote requests should go, your city and the areas you serve, years in business and your hours.</p></div>
-      <div class="card"><h3>Your services</h3><p>Your top 3–5 services in a sentence each, the job you want more of, and anything you don't do.</p></div>
-      <div class="card"><h3>Photos and logo</h3><p>6–15 photos of your work, before/afters, your truck or team (phone photos are fine, and only ones you took or can use), plus your logo if you have one.</p></div>
-      <div class="card"><h3>Reviews and licensing</h3><p>3–5 reviews you love from Google, Nextdoor, Facebook or Yelp, and your license or insurance details if you want them shown.</p></div>
+    <div class="grid reveal" style="margin-top:0">
+      <div class="compare" style="margin-top:0">
+        <div class="mock after">
+          <div class="mock-label" style="color:var(--teal)">What you pay</div>
+          <ul>
+            <li>$375 deposit to start</li>
+            <li>$375 when you approve the finished site, before it goes live</li>
+            <li>Your domain, about $12–20 a year, paid to the company you buy it from</li>
+            <li>No monthly fee required. Hosting is included</li>
+          </ul>
+        </div>
+        <div class="mock after">
+          <div class="mock-label" style="color:var(--teal)">What you get</div>
+          <ul>
+            <li>Up to 5 pages, written for you</li>
+            <li>Built for phones, fast and secure</li>
+            <li>Call buttons and a quote form that emails you</li>
+            <li>Google basics and a review button</li>
+            <li>2 rounds of changes and 14 days of fixes</li>
+            <li>You own your domain and your site</li>
+          </ul>
+        </div>
+      </div>
     </div>
   </div>
 </section>
 
-<section class="cta">
+<section>
   <div class="wrap">
-    <h2>Questions before you start?</h2>
-    <p>Email Dylan anytime.</p>
-    <div class="btn-row">
-      <a class="btn btn-primary" href="mailto:scalewave.agency1@gmail.com?subject=Question%20about%20getting%20started">Email scalewave.agency1@gmail.com</a>
+    <div class="reveal">
+      <p class="eyebrow">Have these handy</p>
+      <h2>What I'll need <span class="grad">from you.</span></h2>
+      <p class="intro">With these ready, the questionnaire takes about 10 minutes. Anything you're not sure about, we figure out together.</p>
+    </div>
+    <div class="grid grid-3 reveal" style="grid-template-columns:repeat(auto-fit,minmax(240px,1fr))">
+      <div class="card tilt"><div class="icon">🏷️</div><h3>Business basics</h3><p>Business name, the number customers should call, the email for quote requests, the areas you serve, years in business and your hours.</p></div>
+      <div class="card tilt"><div class="icon">🧰</div><h3>Your services</h3><p>Your top 3–5 services in a sentence each, the job you want more of, and anything you don't do.</p></div>
+      <div class="card tilt"><div class="icon">📷</div><h3>Photos &amp; logo</h3><p>6–15 photos of your work (phone photos are fine, only ones you took or can use), plus your logo if you have one.</p></div>
+      <div class="card tilt"><div class="icon">⭐</div><h3>Reviews &amp; licensing</h3><p>3–5 reviews you love from Google, Nextdoor, Facebook or Yelp, and license or insurance details if you want them shown.</p></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="cta-box reveal">
+      <h2>Questions before <span class="grad">you start?</span></h2>
+      <p>Email Dylan anytime.</p>
+      <div class="btn-row"><a class="btn btn-primary" href="mailto:scalewave.agency1@gmail.com?subject=Question%20about%20getting%20started">Email scalewave.agency1@gmail.com</a></div>
     </div>
   </div>
 </section>
 </main>
 
-<footer class="site-footer">
-  <div class="wrap">ScaleWave · Websites for West Valley service businesses · scalewave.agency1@gmail.com</div>
+<footer>
+  <div class="wrap">
+    <span>© ScaleWave · Websites for West Valley service businesses</span>
+    <span><a href="index.html">Home</a> · <a href="work.html">Work</a> · <a href="mailto:scalewave.agency1@gmail.com">scalewave.agency1@gmail.com</a></span>
+  </div>
 </footer>
+<div class="sticky-cta"><a class="btn btn-primary" href="mailto:scalewave.agency1@gmail.com?subject=Question%20about%20getting%20started">Email Dylan</a></div>
+<script src="site.js"></script>
 </body>
 </html>
